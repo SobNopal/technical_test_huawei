@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Test</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  </head>
+  <body>
+    <!-- <i class="fa fa-user"></i> -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <div class="container">
+      <div class="row mt-5">
+       <div class="col-lg-6  m-auto"></div>
+       <h2 class="text-center pt-3">Registration</h2>
+      </div>
+      <!-- form start -->
+      <form class="row g-0 needs-validation" novalidate>
+        <div class="input-grup mb-2">
+          <i><ion-icon name="person-outline"></ion-icon></i>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="Name" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="input-grup mb-3">
+          <i><ion-icon name="mail-open-outline"></ion-icon></i>
+          <input type="email" class="form-control" id="validationCustom02" placeholder="Email" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        <div class="input-grup mb-3">
+          <i><ion-icon name="call-outline"></ion-icon></i>
+          <input type="tel" class="form-control" id="validationCustom03" placeholder="Phone" required>
+          <div class="invalid-feedback">
+            Please provide a valid Phone.
+          </div>
+        </div>
+        <div class="col-10">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+            <label class="form-check-label" for="invalidCheck">
+              Agree to terms and conditions
+            </label>
+            <div class="invalid-feedback">
+              You must agree before submitting.
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-primary" type="submit">Submit form</button>
+        </div>
+      </form>
+      <!-- form close -->
+      <div class="popup" id="pop">
+        <ion-icon name="checkmark-circle-outline"></ion-icon>
+        <h2>Thank you!</h2>
+        <p>Your were Registration  Successfully. Thanks!</p>
+        <a href="#"><button>OK</button></a>
+      </div>
+    </div>
+  </body>
+</html>
